@@ -4,13 +4,6 @@
 
 This notebook introduces learners to Google's Gemini API and fundamental prompting techniques. Part of a comprehensive 5-day Generative AI course, Day 1 establishes the foundation for working with large language models through practical examples and hands-on exercises.
 
-## Prerequisites
-
-- **Kaggle Account**: Requires phone verification for API access
-- **Google API Key**: Obtained from AI Studio (ai.google.dev)
-- **Python Knowledge**: Basic understanding of Python programming
-- **Development Environment**: Access to Kaggle notebooks
-
 ## Main Topics Covered
 
 ### 1. Getting Started with Gemini API
@@ -39,6 +32,10 @@ This notebook introduces learners to Google's Gemini API and fundamental prompti
   - Using Top-K and Top-P for controlling output diversity
   - Real-world examples showing parameter effects
 
+In order to understand these parameters visually, created Claude artifact: https://claude.site/artifacts/eb268c78-b35f-470e-b8f8-eff0dae282cf
+
+![generation params](screenshots/generation_params.png)
+
 ### 4. Prompting Techniques
 
 - **Zero-shot Prompting**
@@ -59,11 +56,21 @@ This notebook introduces learners to Google's Gemini API and fundamental prompti
   - Comparing direct and CoT approaches
   - When to use CoT for better results
 
+To understand visually, check the Claude artifact: https://claude.site/artifacts/87a714ea-9ac6-4edc-902a-fdd1a3eee9aa
+
+![CoT](screenshots/chain_of_thought.png)
+
 - **ReAct Framework**
   - Combining reasoning with actions
   - Interactive search and response cycles
   - Implementing Thought, Action, Observation patterns
   - Real-world application examples
+
+To understand visually, check the Claude artifact: https://claude.site/artifacts/fb48da4c-e71c-4234-8070-eee06f029ed9
+
+![ReAct part 1](screenshots/react_1.png)
+
+![ReAct part 2](screenshots/react_2.png)
 
 ### 5. Code-related Features
 
