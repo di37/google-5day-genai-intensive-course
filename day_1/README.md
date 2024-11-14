@@ -108,12 +108,6 @@ To understand visually, check the Claude artifact: https://claude.site/artifacts
   - Interactive prompt gallery
   - Practical examples in Gemini API cookbook
 
-## Technical Setup
-
-- **Required Packages**: Python 3.10+, `google-generativeai` library
-- **Environment**: Kaggle notebook with internet connectivity. Can be run on any other environment as well.
-- **API Access**: Valid Google API key with necessary permissions. Go to [Google AI Studio](ai.google.dev).
-
 ## Best Practices
 
 - Start with simple prompts and gradually increase complexity
