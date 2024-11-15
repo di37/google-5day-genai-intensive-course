@@ -25,4 +25,4 @@ Day 2 of Google’s Generative AI course dives into embeddings and retrieval-aug
 
 Day 3 of Google's Generative AI course focuses on building intelligent agents and implementing function calling with the Gemini API. The day explores how to create sophisticated AI agents that can interact with external tools and maintain conversational context. Using LangGraph, we learnt how to build stateful graph-based applications, demonstrated through a practical BaristaBot example that handles cafe ordering interactions. The course covers essential concepts like cognitive architectures, tool integration, and orchestration layers, showing how agents can make informed decisions using frameworks like ReAct. Through hands-on assignments, participants implement function calling to create a chat interface over a local database, learning how to bridge AI models with external systems. By the end, participants gain practical experience in building autonomous AI agents capable of complex reasoning and real-world interactions.
 
-## Rest of the days to be continued ..
+## Rest of the days to be continued ....
