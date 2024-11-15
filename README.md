@@ -10,7 +10,7 @@
 ## Technical Requirements
 
 - Python 3.10+
-- `google-generativeai>=0.8.3`, `tensorflow`, `keras` libraries
+- `google-generativeai>=0.8.3`, `tensorflow`, `keras`, `langgraph` libraries
 - Kaggle notebook environment.
 
 ## Day 1 - Prompt Engineering
@@ -20,5 +20,9 @@ Day 1 of Google's Generative AI course focuses on mastering the Gemini API and a
 ## Day 2 - Embeddings and Vector Stores/Databases
 
 Day 2 of Google’s Generative AI course dives into embeddings and retrieval-augmented generation (RAG), offering a deep understanding of these foundational components. The day begins with a detailed exploration of embeddings, including text, image, and multimodal embeddings, helping participants understand how these representations capture semantic relationships in vector space. Practical examples walk learners through the classification of embeddings using Keras, highlighting essential techniques for implementing similarity scoring and optimizing vector search. The course also covers Retrieval-Augmented Generation, demonstrating how to use embeddings with RAG for accurate, context-aware document-based Q&A. To bridge theory and application, participants engage with hands-on assignments that reinforce these concepts in real-world scenarios. By the end of the day, participants are well-equipped with tools and techniques to harness embeddings and RAG for enhanced AI solutions.
+
+## Day 3 - Agents
+
+Day 3 of Google's Generative AI course focuses on building intelligent agents and implementing function calling with the Gemini API. The day explores how to create sophisticated AI agents that can interact with external tools and maintain conversational context. Using LangGraph, we learnt how to build stateful graph-based applications, demonstrated through a practical BaristaBot example that handles cafe ordering interactions. The course covers essential concepts like cognitive architectures, tool integration, and orchestration layers, showing how agents can make informed decisions using frameworks like ReAct. Through hands-on assignments, participants implement function calling to create a chat interface over a local database, learning how to bridge AI models with external systems. By the end, participants gain practical experience in building autonomous AI agents capable of complex reasoning and real-world interactions.
 
 ## Rest of the days to be continued ..
