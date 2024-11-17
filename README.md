@@ -1,34 +1,146 @@
-# 5-Day Gen AI Intensive Course with Google
+# 5-Day Generative AI Intensive Course with Google
+
+Welcome to the comprehensive 5-Day Generative AI Intensive Course by Google. This course is designed to equip participants with practical skills in using Google's cutting-edge Generative AI tools and APIs to build advanced AI applications.
+
+<img src="./kaggle.png" alt="ALT_TEXT" width="700" height="500">
+
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Technical Requirements](#technical-requirements)
+3. [Day 1 - Prompt Engineering](#day-1---prompt-engineering)
+4. [Day 2 - Embeddings and Vector Stores/Databases](#day-2---embeddings-and-vector-storesdatabases)
+5. [Day 3 - Agents](#day-3---agents)
+6. [Day 4 - Domain-Specific LLMs](#day-4---domain-specific-llms)
+7. [Day 5 - MLOps for Generative AI](#day-5---mlops-for-generative-ai)
+8. [Bonus Content - Extra API Features](#bonus-content---extra-api-features-to-try)
+
+---
 
 ## Prerequisites
 
-- Kaggle Account (phone verified)
-- Google API Key from AI Studio
-- Basic Python knowledge
-- Internet connectivity for API access
+- **Kaggle Account**: Ensure your account is phone-verified.
+- **Google API Key**: Obtain from [Google AI Studio](https://studio.google.com).
+- **Basic Python Knowledge**: Familiarity with Python programming is essential.
+- **Internet Connectivity**: Required for API access and hands-on exercises.
+
+---
 
 ## Technical Requirements
 
-- Python 3.10+
-- `google-generativeai>=0.8.3`, `tensorflow`, `keras`, `langgraph` libraries
-- Kaggle notebook environment.
+- **Python Version**: Python 3.10 or later.
+- **Libraries**: Install the following via pip:
+  - `google-generativeai>=0.8.3`
+  - `tensorflow`
+  - `keras`
+  - `langgraph`
+- **Environment**: Use a Kaggle Notebook or your preferred Python IDE.
 
-## Day 1 - Prompt Engineering
+---
 
-Day 1 of Google's Generative AI course focuses on mastering the Gemini API and advanced prompting techniques. The course begins with a comprehensive introduction to the Gemini API setup using Kaggle notebooks, making it accessible for hands-on learning. Participants learn about various prompting techniques, from basic zero-shot prompting to more advanced methods like Chain of Thought (CoT) and the ReAct framework. The course covers essential concepts such as model selection, generation parameters (temperature, top-k, top-p), and output control. A significant portion is dedicated to code-related features, including code generation, execution, and explanation capabilities of the Gemini API. The practical examples and real-world applications, demonstrated through tools like TextFX and SQL Talk, help bridge the gap between theory and implementation. Whether you're new to Gen AI or have experience with other models like ChatGPT, this course provides valuable insights into leveraging Google's Gemini API effectively. The day concludes with comprehensive resources and best practices for continued learning and development.
+## Course Outline
 
-## Day 2 - Embeddings and Vector Stores/Databases
+### Day 1 - Prompt Engineering
 
-Day 2 of Google’s Generative AI course dives into embeddings and retrieval-augmented generation (RAG), offering a deep understanding of these foundational components. The day begins with a detailed exploration of embeddings, including text, image, and multimodal embeddings, helping participants understand how these representations capture semantic relationships in vector space. Practical examples walk learners through the classification of embeddings using Keras, highlighting essential techniques for implementing similarity scoring and optimizing vector search. The course also covers Retrieval-Augmented Generation, demonstrating how to use embeddings with RAG for accurate, context-aware document-based Q&A. To bridge theory and application, participants engage with hands-on assignments that reinforce these concepts in real-world scenarios. By the end of the day, participants are well-equipped with tools and techniques to harness embeddings and RAG for enhanced AI solutions.
+Master the **Gemini API** and advanced prompting techniques to enhance LLM interactions.
 
-## Day 3 - Agents
+**Key Topics**:
 
-Day 3 of Google's Generative AI course focuses on building intelligent agents and implementing function calling with the Gemini API. The day explores how to create sophisticated AI agents that can interact with external tools and maintain conversational context. Using LangGraph, we learnt how to build stateful graph-based applications, demonstrated through a practical BaristaBot example that handles cafe ordering interactions. The course covers essential concepts like cognitive architectures, tool integration, and orchestration layers, showing how agents can make informed decisions using frameworks like ReAct. Through hands-on assignments, participants implement function calling to create a chat interface over a local database, learning how to bridge AI models with external systems. By the end, participants gain practical experience in building autonomous AI agents capable of complex reasoning and real-world interactions.
+- Introduction to Gemini API setup in Kaggle.
+- Prompting methods:
+  - Zero-shot, Few-shot, and Chain-of-Thought (CoT).
+  - Advanced frameworks like ReAct.
+- Parameters: Temperature, top-k, top-p, and output control.
+- Code-related capabilities:
+  - Code generation, execution, and explanation.
+- Practical tools: TextFX, SQL Talk.
 
-## Day 4 - Domain-Specific LLMs
+**Outcome**: Leverage prompting techniques and the Gemini API effectively for various tasks.
 
-Day 4 of Google's Generative AI course delves into specialized applications of Large Language Models through two key implementations: search grounding and fine-tuning. The day explores how to enhance LLM capabilities by connecting them to verifiable information sources and adapting them for specific tasks. Using the Gemini API, we have learnt to implement search grounding that automatically generates and verifies queries against Google Search results, offering both static and dynamic approaches. The course then covers model fine-tuning techniques, demonstrated through a practical classification task using the 20 Newsgroups dataset. Through hands-on assignments, participants implement both techniques, learning how to evaluate model performance, handle parameter-efficient tuning, and manage token usage effectively. The day's content is grounded in real-world applications, supported by a comprehensive whitepaper that explores how similar techniques are transforming specialized fields like cybersecurity and healthcare. At the end, we all gained practical experience as well as intuition for creating and deploying domain-specific LLM solutions while understanding the broader implications and best practices in specialized AI applications.
+---
 
-## Day 5 - MLOps for Generative AI
+### Day 2 - Embeddings and Vector Stores/Databases
 
-Day 5 of Google's Generative AI course focuses on the critical aspects of operationalizing GenAI applications through MLOps best practices and practical implementation strategies. The day centers around a comprehensive whitepaper and demonstration of the GenAI Starter Pack, which serves as a blueprint for bridging the gap between prototyping and production. Using Vertex AI's ecosystem, we explored how to implement sophisticated MLOps practices including continuous evaluation, model monitoring, and governance. The course showcases practical patterns for building production-ready applications through the Starter Pack, which includes a FastAPI server, interactive UI playground, and complete CI/CD infrastructure using Terraform. Through detailed demonstrations, participants learn how to implement RAG patterns, create evaluation pipelines, and establish robust observability frameworks that track user interactions in BigQuery and visualize insights through Looker Studio dashboards. The day's content emphasizes real-world deployment challenges and solutions, supported by comprehensive documentation that explores how Vertex AI's tools and services facilitate enterprise-grade GenAI applications. By the end, participants gain both theoretical understanding and practical experience in deploying GenAI applications at scale while maintaining production-grade reliability, monitoring, and governance standards.
+Deep dive into **embeddings** and **Retrieval-Augmented Generation (RAG)**.
+
+**Key Topics**:
+
+- Types of embeddings: Text, image, and multimodal.
+- Semantic representation and vector space analysis.
+- Classification using Keras.
+- Similarity scoring and optimizing vector search.
+- RAG for document-based Q&A.
+
+**Outcome**: Harness embeddings and RAG for building context-aware AI solutions.
+
+---
+
+### Day 3 - Agents
+
+Learn to build **intelligent agents** and implement **function calling** using the Gemini API.
+
+**Key Topics**:
+
+- Cognitive architectures and tool integration.
+- Stateful applications with **LangGraph**:
+  - Example: BaristaBot for café orders.
+- Frameworks: ReAct and other decision-making techniques.
+- Practical function calling for AI-system integration.
+
+**Outcome**: Design and deploy autonomous agents capable of real-world interactions.
+
+---
+
+### Day 4 - Domain-Specific LLMs
+
+Specialize LLMs for specific applications through **search grounding** and **fine-tuning**.
+
+**Key Topics**:
+
+- Connecting LLMs to verifiable sources:
+  - Static and dynamic query grounding.
+- Fine-tuning models:
+  - Example: Classifying the 20 Newsgroups dataset.
+- Performance evaluation, parameter-efficient tuning, and token management.
+
+**Outcome**: Create domain-specific AI solutions tailored to specialized fields.
+
+---
+
+### Day 5 - MLOps for Generative AI
+
+Operationalize your GenAI solutions with **MLOps** best practices.
+
+**Key Topics**:
+
+- Deployment using Vertex AI:
+  - Continuous evaluation, model monitoring, and governance.
+- GenAI Starter Pack:
+  - FastAPI server, interactive UI playground, CI/CD with Terraform.
+- RAG implementation patterns and observability frameworks:
+  - Tracking user interactions in BigQuery and visualizing with Looker Studio.
+
+**Outcome**: Build production-ready GenAI applications with enterprise-grade reliability.
+
+---
+
+### Bonus Content - Extra API Features to Try
+
+Explore the extended capabilities of the **Gemini API**.
+
+**Key Topics**:
+
+- Multimodal interactions: Text, images, audio, and video.
+- File API: Handling large files (up to 2M tokens).
+- Context caching for repetitive queries, reducing costs and improving efficiency.
+- Streaming capabilities for real-time responses.
+
+**Outcome**: Gain advanced proficiency in leveraging Gemini API for complex, multimodal AI solutions.
+
+---
+
+## Get Started
+
+To begin the course, ensure all [prerequisites](#prerequisites) are met and set up your environment according to the [technical requirements](#technical-requirements).
+
+Happy learning!

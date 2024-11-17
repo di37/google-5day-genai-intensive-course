@@ -87,8 +87,8 @@ There is no code lab on Day 5. We will just go through the demonstration of the 
 
 ## Documentation & Reading
 
-- Its highly recommended to [read the whitepaper](https://www.kaggle.com/whitepaper-solving-domains-specific-problems-using-llms)
-- To further get comfortably to start with whitepaper, also distilled down the whitepaper with help of Claude: https://claude.site/artifacts/4ef4f9db-cdc0-486c-9de3-7d38781f20a0
+- Its highly recommended to [read the whitepaper](https://www.kaggle.com/whitepaper-operationalizing-generative-ai-on-vertex-ai-using-mlops)
+- To further get comfortably to start with whitepaper, also distilled down the whitepaper with help of Claude: https://claude.site/artifacts/418163e8-efde-4efa-acc0-89a6e88c4f66
     ![illustration](./screenshots/screenshot_slide_intro.png){ width=70% }
 - Lifecycle of a GenAI System: https://claude.site/artifacts/2a9da3d5-9707-4d87-be1f-8569f79f8293 
     ![illustration](./screenshots/lifecycle_of_genai_system.png){ width=70% }
