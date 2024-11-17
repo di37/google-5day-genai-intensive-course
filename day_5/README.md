@@ -1,6 +1,6 @@
 # Day 5 - MLOps for Generative AI
 
-There is no code lab on Day 5. We will just go through the demonstration of the Starter Pack, a resource for reducing time to production and providing an example on how to build production-ready GenAI applications while implementing practices from the white paper.
+There is no code lab on Day 5. We will just go through the demonstration of the [Starter Pack](https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/sample-apps/e2e-gen-ai-app-starter-pack), a resource for reducing time to production and providing an example on how to build production-ready GenAI applications while implementing practices from the white paper.
 
 ## Why create the Starter Pack?
 
